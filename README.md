@@ -8,10 +8,10 @@ Input (webcam / RTSP / MJPEG URL / video file)
   └─ YOLOv8-face detection
        └─ Face crop + align
             └─ Emotion classifier (swappable at runtime)
-                 ├─ Custom CNN       — baseline, CPU ~2ms
-                 ├─ MobileNetV2     — fine-tuned, CPU ~8ms
-                 ├─ EfficientNet-B0 — best accuracy, CPU ~12ms
-                 └─ ViT-tiny        — transformer, CPU ~20ms
+                 ├─ Custom CNN       — baseline
+                 ├─ MobileNetV2     — fine-tuned
+                 ├─ EfficientNet-B0 — best accuracy,
+                 └─ ViT-tiny        — transformer
   └─ WebSocket → React frontend
        ├─ Live annotated stream
        ├─ Emotion confidence bars
