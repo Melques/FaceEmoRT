@@ -10,7 +10,7 @@ Input (webcam / RTSP / MJPEG URL / video file)
             └─ Emotion classifier (swappable at runtime)
                  ├─ Custom CNN       — baseline
                  ├─ MobileNetV2     — fine-tuned
-                 ├─ EfficientNet-B0 — best accuracy,
+                 ├─ EfficientNet-B0
                  └─ ViT-tiny        — transformer
   └─ WebSocket → React frontend
        ├─ Live annotated stream
